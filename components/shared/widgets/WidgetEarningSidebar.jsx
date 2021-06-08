@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const WidgetEarningSidebar = () => {
+  const [active, setactive] = useState(true);
+
+  const clickHandle = () => {
+    setactive((prevState) => !prevState);
+  };
   return (
-    // <div className="ps-block--earning-count">
-    //     <small>Earning Till Now </small>
-    //     <h3>$12,560.55</h3>
-    // </div>
     <div style={{ textAlign: 'center' }}>
       <button
+        onClick={clickHandle}
         className="ps-btn ps-btn--sumbit success"
-        style={{ borderRadius: 20 }}
+        style={{ borderRadius: 20, background: active ? '#80bc00' : '#dd3b3b' }}
       >
-        Turn off Active Status
+        Turn off {active ? 'Active' : 'InActive'} Status
       </button>
     </div>
   );

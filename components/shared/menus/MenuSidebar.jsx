@@ -11,9 +11,9 @@ const MenuSidebar = () => {
       icon: 'icon-home',
     },
     // {
-    //     text: 'Products',
-    //     url: '/products',
-    //     icon: 'icon-database',
+    //   text: 'Products',
+    //   url: '/products',
+    //   icon: 'icon-database',
     // },
     {
       text: 'Orders',
