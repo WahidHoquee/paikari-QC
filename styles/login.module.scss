@@ -1,0 +1,37 @@
+.login {
+  height: 100vh;
+  background: #f7971e;
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd200, #f7971e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: #fff;
+  padding: 15rem 10rem 10rem;
+  -webkit-box-shadow: 1px -1px 15px -1px rgba(156, 156, 156, 0.8);
+  box-shadow: 1px -1px 15px -1px rgba(255, 253, 253, 0.8);
+}
+
+.formWrapper {
+  width: 100%;
+  & > div {
+    margin: 0;
+  }
+}
+.checkbox {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 30rem;
+}
+.button {
+  width: 30rem;
+  margin-top: 3rem;
+  text-align: center;
+}

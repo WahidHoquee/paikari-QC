@@ -1,0 +1,15 @@
+#order-table tbody tr {
+  cursor: pointer;
+  &:hover td {
+    background-color: #f5ecd8 !important;
+  }
+}
+
+#categoryWiseCaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & span {
+    font-weight: 600;
+  }
+}

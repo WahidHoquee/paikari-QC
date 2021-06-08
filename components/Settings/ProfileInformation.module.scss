@@ -1,0 +1,18 @@
+.profile_info {
+  list-style: none;
+  padding: 0;
+  font-size: 1.4rem !important;
+  margin: 5rem 0 5rem;
+  li {
+    padding: 10px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #ddd;
+    }
+    h5 {
+      display: inline-block;
+      width: 13rem;
+      font-weight: 600;
+      color: #1890ff;
+    }
+  }
+}
